@@ -5,30 +5,28 @@
   "extensions": {
     "categorizeProcess": {
       "properties": {
-        "process-variable-unmapped-1-id": {
-          "id": "process-variable-unmapped-1-id",
-          "name": "process_variable_unmapped_1",
+        "557dfb49-456b-492d-b99c-0a49ee325e77": {
+          "id": "557dfb49-456b-492d-b99c-0a49ee325e77",
+          "name": "fileContent",
           "type": "string",
-          "required": true,
-          "value": "fileContent"
-        },
-        "process-variable-outputmap-1-id": {
-          "id": "process-variable-outputmap-1-id",
-          "name": "process_variable_outputmap_1",
-          "type": "string",
-          "required": true,
-          "value": "approved"
+          "required": true
         }
       },
       "mappings": {
         "Task_1ylvdew": {
-          "mappingType": "MAP_ALL_INPUTS",
-          "outputs": {
-            "process_variable_outputmap_1": {
-              "type": "variable",
-              "value": "task_output_variable_name_1"
-            }
-          }
+          "mappingType": "MAP_ALL",
+          "inputs": {},
+          "outputs": {}
+        },
+        "Task_0snvh02": {
+          "mappingType": "MAP_ALL",
+          "inputs": {},
+          "outputs": {}
+        },
+        "Task_1asxw87": {
+          "mappingType": "MAP_ALL",
+          "inputs": {},
+          "outputs": {}
         }
       }
     }

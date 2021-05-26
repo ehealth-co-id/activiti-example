@@ -27,7 +27,7 @@ dependencies {
     implementation("org.jetbrains.kotlin:kotlin-reflect")
     implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
 
-    implementation("org.activiti:activiti-spring-boot-starter:7.1.266")
+    implementation("org.activiti:activiti-spring-boot-starter:7.1.338")
     implementation("com.h2database:h2:1.4.200")
 
     testImplementation("org.springframework.boot:spring-boot-starter-test")
